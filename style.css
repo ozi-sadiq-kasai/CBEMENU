@@ -90,6 +90,7 @@ nav ul{
 
 
 
+
 /* IMAGES */
 img{
   width:70px;
@@ -110,8 +111,18 @@ footer{
   background-color: black;
   padding: 10px;
 }
+
+footer ul{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* Phone and Instagram Footer Icon Color */
 .fa-brands,.fa-regular{
-  color:#D21C30 ;
+  color:#D21C30;
+  font-size: 1.3em;
 }
 
 @media only screen and (min-width:300px)and (max-width: 767px){
@@ -125,8 +136,9 @@ footer{
     display: block;
     cursor: pointer;
   }
-  .hamburger-icon{
+  .hamburger-icon,.menu{
     color:#D21C30;
+    padding-left: 5px;
   }
   .nav-menu{
     position: fixed;
