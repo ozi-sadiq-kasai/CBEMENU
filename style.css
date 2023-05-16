@@ -5,6 +5,10 @@
   font-family: 'Helvetica';
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 /* UTILITIES */
 .container{
@@ -118,6 +122,27 @@ footer ul{
 .fa-instagram,.call{
   color:#D21C30;
   font-size: 1.2em;
+}
+
+/* Scroll Bar */
+#progress {
+  position: fixed;
+  bottom: 70px;
+  right: 10px;
+  display: none;
+  place-items: right;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+#progress-value {
+  display: block;
+  height: calc(100% - 10px);
+  width: calc(100% - 10px);
+  border-radius: 25%;
+  display: grid;
+  place-items: center;
+  font-size: 35px;
 }
 
 @media only screen and (min-width:300px)and (max-width: 767px){
