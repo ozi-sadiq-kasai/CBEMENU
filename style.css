@@ -98,27 +98,26 @@ img{
 }
 .image-banner{
   width: 100%;
-  /* max-width: 400px; */
   height: auto;
   object-fit: cover;
   padding: 0;
 }
 footer{
   background-color: black;
-  padding: 10px;
+  padding: 0;
 }
 
 footer ul{
   display: flex;
   justify-content: space-around;
-  width: 50%;
+  width: 20%;
   margin: 0 auto;
 }
 
 /* Phone and Instagram Footer Icon Color */
-.fa-brands,.fa-regular{
+.fa-instagram,.call{
   color:#D21C30;
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 @media only screen and (min-width:300px)and (max-width: 767px){
@@ -132,7 +131,7 @@ footer ul{
     display: block;
     cursor: pointer;
   }
-  .menu,.material-symbols-outlined{
+  .menu,.bars{
     color:#C0D339;
     width: 50px;
   
