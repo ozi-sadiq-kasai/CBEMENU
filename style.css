@@ -127,10 +127,12 @@ footer ul{
 /* Scroll Bar */
 #progress {
   position: fixed;
-  bottom: 70px;
-  right: 10px;
+  bottom: 40px;
+  right: 1px;
+  height: 50px;
+  width: 50px;
   display: none;
-  place-items: right;
+  place-items: center;
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
@@ -139,10 +141,12 @@ footer ul{
   display: block;
   height: calc(100% - 10px);
   width: calc(100% - 10px);
-  border-radius: 25%;
+  /* background-color: #ffffff; */
+  border-radius: 50%;
   display: grid;
   place-items: center;
   font-size: 35px;
+  color:  #252323;
 }
 
 @media only screen and (min-width:300px)and (max-width: 767px){
